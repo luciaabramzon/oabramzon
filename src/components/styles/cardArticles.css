@@ -64,6 +64,9 @@
     width: 130px;
  }
  @media (max-width: 768px) {
+    a{
+        text-decoration: none;
+    }
     .cardDiv{
         display: flex;
         flex-direction: column;
