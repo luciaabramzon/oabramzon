@@ -18,7 +18,7 @@ const NavBar =()=>{
           <Nav className="me-auto buttonsNav">
             <a className='sections' href="#aboutme">Acerca de mi</a>
             <a className='sections' href="#articulos">Articulos</a>
-            <a className='sections' href="#libro">Libros</a>
+            <a className='sections' href="#libro">Libro</a>
             <a className='sectionsIcon' href={`https://wa.me/${phone}`}><Icon name='whatsapp'/></a>
           </Nav>
           </div>

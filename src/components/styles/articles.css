@@ -5,6 +5,9 @@
     overflow: hidden;
     justify-content: space-evenly;
 }
+a{
+    text-decoration: none;
+}
 .articlesDiv{
     display: flex;
     flex-direction: column;
