@@ -64,11 +64,7 @@
     width: 130px;
  }
  @media (max-width: 768px) {
-    .cards .cardTitle,
-    .cards .cardContent,
-    .cards .linkButton {
-        display: initial;
-    }
+
     a{
         text-decoration: none;
     }
@@ -104,5 +100,9 @@
     }
     .cards{
         width: 100%;
+    }
+    .cards:hover {
+        background: none !important;
+        transform: none !important;
     }
  }
