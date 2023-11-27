@@ -34,6 +34,7 @@ a{
 .articlesTitle{
     font-size: 3.5em;
     font-family: 'Open Sans', sans-serif;
+    margin-bottom: 5%;
     color: white;
 }
 .articleText{
@@ -43,6 +44,7 @@ a{
     text-align: justify;
 }
 .articleButton{
+    margin: 0 auto;
     margin-top: 5%;
     width: 50%;
     border-radius: 10px;

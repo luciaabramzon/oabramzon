@@ -1,6 +1,9 @@
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import Loader from "../Loader";
 import '../styles/cardArticles.css'
 const MainArticles = () => {
+  const [isLoading, setLoading] = useState(true);
   const cards = [
     {
       title: 'La otra guerra Israel-Palestina',
@@ -9,14 +12,35 @@ const MainArticles = () => {
     },
     {
       title: 'El matrimonio y la pérdida del deseo sexual: ¿un destino obligado?',
-      content: 'Muchas parejas temen confesarse que han perdido interés sexual por el otro porque asocian esa ausencia de ganas con el fin del amor y la amenaza de una separación...',
+      content: 'Muchas parejas temen confesarse que han perdido interés sexual por el otro porque asocian esa ausencia de ganas...',
       link: '/matrimonio'
     }
   ];
 
+  useEffect(() => {
+
+    const loadingTimeout = setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+
+    return () => {
+      clearTimeout(loadingTimeout);
+    };
+    
+  }, []);
+
   return (
     <div className="mainArticles">
-    <h1 className="mainArticlesTitle" >Articulos</h1>
+      {
+        isLoading? (<Loader/>)
+        :
+        ( 
+         <>
+         <h1 className="mainArticlesTitle" >Articulos</h1>
     <div className="cardDiv">
 
       {cards.map((card) => (
@@ -29,6 +53,10 @@ const MainArticles = () => {
         </Link>
       ))}
     </div>
+         </> 
+        )
+      }
+    
     </div>
   );
  

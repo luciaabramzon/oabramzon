@@ -3,11 +3,32 @@ import Footer from "../Footer"
 import NavBar from "../NavBar"
 import matrimonio from '../images/matrimonio.webp'
 import '../styles/completeArticles.css'
+import { useEffect, useState } from "react"
+import Loader from "../Loader"
 const Matrimonio=()=>{
+    const [isLoading, setLoading] = useState(true);
+    useEffect(() => {
+
+        const loadingTimeout = setTimeout(() => {
+          setLoading(false);
+        }, 1000);
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth',
+        });
+    
+        return () => {
+          clearTimeout(loadingTimeout);
+        };
+        
+      }, []);
     return(
         <div>
             <NavBar/>
-            <div className="article">
+            {isLoading? (<Loader/>):
+            (
+                <>
+                <div className="article">
                 <div className="DivArticle">
                     <div>
                 <h1 className="titlesArticles">El matrimonio y la pérdida del deseo sexual: ¿un destino obligado?</h1>
@@ -63,8 +84,11 @@ Sentí la necesidad de compartir mi verdad, y desde allí dar un testimonio de a
 
 
             </div>
-            <Link to='/'><button className="buttonArticles">Volver</button></Link>
+            <Link to='/articles'><button className="buttonArticles">Volver</button></Link>
             </div>
+                </>
+            )}
+            
             <Footer/>
         </div>
     )

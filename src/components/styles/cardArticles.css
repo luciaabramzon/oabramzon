@@ -17,6 +17,10 @@
     margin-top: 5%;
     margin-bottom: 5%;
 }
+.mainArticlesTitle{
+    font-size: 3.5em;
+    font-weight: bolder;
+}
 .cards {
     align-items: flex-start;
     background: #1b1b1b;
@@ -36,24 +40,18 @@
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
+    font-size: 2em;
 }  
  .cardContent {
     display: none;
- }
- .linkButton{
-    display: none;
- }
- .cards:hover .cardTitle{
-    display: none;
- }
- .cards:hover .cardContent{
+ } .cardContent{
     display: flex;
     font-family: 'Open Sans', sans-serif;
     color: white;
     text-align: justify;
     font-size: 1.2em;
  }
- .cards:hover .linkButton{
+.linkButton{
     display: flex;
     margin: 0 auto;
     height: 50px;
@@ -63,6 +61,16 @@
     justify-content: center;
     width: 130px;
  }
+ .cards:hover{
+    transition: all 0.3s ease;
+ }  
+ .cards:hover {
+    transform: scale(1.05); 
+    background-color: #333; 
+}
+.linkButton:hover{
+    background-color: grey;
+}
  @media (max-width: 768px) {
 
     a{
@@ -101,8 +109,5 @@
     .cards{
         width: 100%;
     }
-    .cards:hover {
-        background: none !important;
-        transform: none !important;
-    }
+
  }
