@@ -9,7 +9,7 @@ const NavBar =()=>{
   const phone='+59894414846'
     return(
         <>
-        <Navbar className='nav'>
+        <Navbar className='nav' id='NavBar'>
         <Container className='navBar'>
             <div className='logo'>
           <Navbar.Brand href="#home"><Link to='/'><img className='logoNav' src={logo}/></Link></Navbar.Brand>

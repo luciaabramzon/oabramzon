@@ -8,6 +8,9 @@
 a{
     text-decoration: none;
 }
+.articlesTitle{
+    margin: 0 auto;
+}
 .articlesDiv{
     display: flex;
     flex-direction: column;
