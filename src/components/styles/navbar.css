@@ -1,0 +1,65 @@
+.nav{
+    background-color: #191816 ;
+}
+.sections{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    width: 40%;
+    font-size: 110%;
+}
+.sectionsIcon{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    width: 40%;
+    font-size: 110%;
+}
+.sections :hover{
+    color: gray !important;
+}
+ a{
+    text-decoration: none;
+ }   
+ a:hover{
+    color: gray;
+ }
+
+.logoNav{
+    width: 15%;
+}
+.navBar{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    width: 40%;
+    text-align: initial;
+}
+.buttonsNav{
+    text-align: end;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 0 !important;
+    width: 60%;
+}
+.icon{
+    color: white;
+}
+i{
+    font-size: 200% !important;
+} 
+
+@media (max-width: 768px) {
+    .sections{
+        display: none;
+    }
+    .sectionsIcon{
+        display: none;
+    }
+    .logoNav{
+        width: 50%;
+        height: 30%;
+    }
+
+}
+

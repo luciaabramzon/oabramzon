@@ -1,0 +1,71 @@
+.aboutMe{
+    display: flex;
+    flex-direction: row;
+}
+.imageAbout{
+    width: 70%;
+    overflow: hidden;
+}
+.imageAboutDiv{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.textAboutDiv{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.textAbout{
+    width: 80%;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+}
+.imageAboutMobile{
+    display: none;
+}
+@media (max-width: 768px){
+    .aboutMe{
+        flex-direction: column;
+        margin-top: 10%;
+    }
+    .imageAbout{
+        display: none;
+    }
+    .imageAboutMobile{
+        display: flex;
+        width: 100%;
+        margin-top: 10%;
+    }
+    .imageAboutDiv{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .textAboutDiv{
+        width: 80%;
+        font-size:1.5em;
+        margin: 0 auto;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .textAbout{
+        width: 100%;
+    }
+    .articleImage{
+        display: none;
+    }
+    .articleText{
+        font-size: 1.5em;
+    }
+    .articleButton{
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.5em;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}

@@ -1,0 +1,33 @@
+footer{
+    background-color: #191816;
+}
+.footerStart{
+    display: flex;
+    flex-direction: row;
+}
+.footerLogoDiv{
+    width: 40%;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    align-items: center;
+}
+.footerLogo{
+    width: 10%;
+}
+.footerContactDiv{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (max-width: 768px){
+    .footerLogo{
+        width: 50%;
+    }
+    .footerIcon{
+        font-size: 2.3em !important;
+    }
+}

@@ -1,0 +1,10 @@
+.atardecer{
+    width: 100%;
+    height: 87vh;
+}
+
+@media (max-width: 768px){
+    .atardecer{
+        display: none;
+    }
+}

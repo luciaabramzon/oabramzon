@@ -1,0 +1,60 @@
+.book{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: space-evenly;
+}
+.BookImageDiv{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.bookImage{
+    width: 80%;
+    height: 90%;
+    align-items: center;
+}
+.BookTextDiv{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+.bookTitle{
+    font-size: 3.5em;
+    font-family: 'Open Sans', sans-serif;
+}
+.bookText{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+@media (max-width: 768px){
+    .book{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .BookImageDiv{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    .bookImage{
+        width: 100%;
+    }
+    .BookTextDiv{
+        width: 80%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    .bookText{
+        font-size: 1.5em;
+    }
+}
