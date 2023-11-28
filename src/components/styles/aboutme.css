@@ -24,6 +24,7 @@
     width: 80%;
     text-align: justify;
     font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
 }
 .imageAboutMobile{
     display: none;
@@ -47,7 +48,7 @@
     }
     .textAboutDiv{
         width: 80%;
-        font-size:1.5em;
+        font-size:1.1em;
         margin: 0 auto;
         margin-top: 10%;
         margin-bottom: 10%;

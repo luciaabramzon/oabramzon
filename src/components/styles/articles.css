@@ -40,7 +40,7 @@ a{
 .articleText{
     color: white;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
+    font-size: 1.1em;
     text-align: justify;
 }
 .articleButton{
@@ -60,6 +60,7 @@ a{
 .articleButton:hover{
     background-color: grey;
 }
+
 @media (max-width: 768px){
     .articles{
         display: flex;
@@ -73,5 +74,8 @@ a{
     }
     .articlesTitle{
         margin-bottom: 10%;
+    }
+    .articleText{
+        font-size: 1.1em;
     }
 }

@@ -35,51 +35,27 @@ const Matrimonio=()=>{
                 <div>
 <img className="ArticleImage" src={matrimonio}/>
 </div>
-                <p className="textArticles">Desde qué comenzaron las acciones bélicas en Gaza, casi ya un mes atrás, se ha desatado una guerra paralela entre partidarios de uno u otro bando, en Facebook, en foros de diarios, en mails, etc. Miles de comentarios, fotos, reportajes, vídeos que van desde posicionamientos respetuosos, históricos y reflexivos, a agresiones e insultos salvajes.
-
-Como psicoanalista y tratando de ver un poco "más allá " de lo que se dice, lo primero que rescato es que prácticamente todo este material no tiene ningún efecto de cambio sobre el "oponente". El que está en una posición la mantiene,y desprecia y niega lo publicado por el que está en la otra
-
-En síntesis, los que se puede constatar, es que cada uno de los que publica algo sobre este tema, lo hace para su "propia tropa". Esto, a mi criterio responde a la tendencia que tenemos los humanos de creer que existe una VERDAD, que de poseerla nos ubica en la senda del bien, de lo correcto, del éxito y de la felicidad.
-
-En los hechos, se puede comprobar que a la verdad con minúscula se puede acceder con facilidad. Con un poco de sentido común y un poco de reflexión uno siente que "tiene razón". Es esa la verdad parcial.
-
-A lo que nadie puede acceder es a la VERDAD con mayúscula, la verdad absoluta, sencillamente porque no existe.
-
-Un juez para dictar sentencia, escucha la verdad de cada parte y después determina cual de ellas le parece que se ajusta más a derecho. Una parte por lo general siente que se hizo justicia y la otra repudia el veredicto porque siente que su verdad no fue escuchada.
-
-Es muy probable que sí uno escucha la verdad de la gente de Palestina sentirá que tienen sus motivos para atacar y sentirse atacados por Israel. Y si escucha a los israelíes seguramente comprenderá los motivos que los llevan a esta guerra. Por todo esto, esta búsqueda de encontrar quienes tienen razón y quienes están equivocados, o de definir quienes son los buenos y quienes los malos, es una tarea absurda que no genera ningún beneficio para nadie.
-
-Finalmente entonces, cada uno de nosotros podrá posicionarse desde el lugar que más represente sus creencias, sus valores, sus ideales o sus raíces, sin pretender que los otros deban adherirse por ser la suya la verdad única.
-
-En mi caso personal yo apoyo a Israel. Apoyo a Israel porque lo conocí hace unos años y me pareció un país admirable.
-
-Apoyo a Israel, porque soy judío y me siento muy bien de serlo. Israel es la única democracia de Medio Oriente, condición necesaria a mi entender para vivir con dignidad y progreso. Apoyo a Israel, porque en un territorio más chico que la provincia de Tucumán, exporta conocimientos y adelantos al nivel de los países más desarrollados. Muchos de los grandes avances en medicina, tecnología, ciencias, productos de agricultura provienen de Israel.
-
-Muchísimos científicos, intelectuales en todas las áreas del conocimiento, premios Nobel, son israelíes.
-
-Apoyo a Israel porque sé positivamente que ellos no quieren la guerra ni la buscan. Sería absurdo !! Si pudieran tener paz, el desarrollo israelí sería aún mayor
-
-Desde su creación como estado, Israel, se tuvo que defender de todos los intentos de los países árabes de sacarlos de su territorio y en algunos casos del deseo de exterminarlos de la faz de la Tierra.
-
-Cualquiera que lea la historia comprobará que jamás Israel comenzó alguna guerra.
-
-Se también qué en Israel no existe el deseo de matar civilles ni niños, ni ancianos, y que la ofensiva de estos días es en defensa de su gente y no de querer agredir a sus vecinos que son desprotegidos por los terroristas que está totalmente comprobado, obligan a permanecer en los lugares desde donde atacan a Israel.
-
-Rechazo la manera en que muchos palestinos enseñan a sus hijos desde pequeños a odiar a los judíos y a los israelíes.
-
-Desde mi verdad con minúscula esta es una guerra entre un ejército regular, perfectamente identificable, contra un grupo guerrillero que no sólo no respeta los derechos humanos de los civiles israelíes, disparando cientos de cohetes y misiles diariamente, sino que tampoco respetan los derechos humanos de su propio pueblo. Es sabido el atraso y las costumbres medievales que imponen a su gente, y en definitiva son dictaduras que en el caso de Hamas además, son sanguinarias.
-
-Pero volviendo a la otra guerra, la de las verdades escritas, me duele muchísimo comprobar cuánto antisemitismo se esconde debajo de gente que dice defender los derechos humanos y que Israel según su opinión, no los cumple.
-
-Se puede comprobar fácilmente que arriba del 90% de lo que se escribe, revela una ignorancia absoluta del tema. Son sólo emociones disfrazadas de supuestos conocimientos que la mayoría de las personas no se toma el trabajo de investigar. Me duele la hipocresía de gente que convoca a boicotear a los productos israelíes, pero estoy seguro que no boicotean las vacunas que les dan a sus hijos y a ellos mismos que fueron desarrolladas en Israel. Estoy seguro que no boicotean las medicinas o los tratamientos médicos que sus familiares necesitan y que fueron descubiertos por científicos israelíes. Tampoco boicotean la enorme cantidad de programas de computación que utilizan todos los días y que son creados en Israel.
-
-También me duele que ese antisemitismo disfrazado de sensibilidad humanitaria, denuncia a Israel por considerarlo un país que no respeta los derechos humanos, pero no se los ve desgarrados por los 150.000 sirios que han matado en este último año, ni parecen indignarse por las matanzas de los rusos en Ucrania, incluyendo el avión de Malasia con casi 300 muertos. Tampoco claman por el califato impuesto en parte de Irak y Siria donde están obligando a todas las mujeres a la ablación del clítoris, además de todo tipo de represión y crímenes por lapidación.
-
-Ni se los escucha clamando por Venezuela que reprime brutalmente a los estudiantes que pretenden ejercer su derecho a protestar, y donde son torturados, muertos y encarcelados. Tampoco lo hacen por la Argentina en donde llegan a matar a un joven para robarle una bicicleta y todos los días hay crímenes absurdos sin que se escuche la indignación y el llamado a boicotear sus productos.
-
-Porque valoro profundamente la democracia, la educación, la libertad y el progreso, es mi mayor deseo el que cada vez haya más países y sociedades como las de Israel, Canadá, Australia, Finlandia, Suecia, y cada vez menos países como son actualmente Irán, Siria, Corea del Norte o Venezuela.
-
-Sentí la necesidad de compartir mi verdad, y desde allí dar un testimonio de alguien que no está en absoluto en contra de los palestinos, pero decididamente a favor de Israel. Gracias por haber leído esto.</p>
+                <p className="textArticles">Muchas parejas temen confesarse que han perdido interés sexual por el otro porque asocian esa ausencia de ganas con el fin del amor y la amenaza de una separación. Sin embargo, el deseo sexual se alimenta del erotismo y no del amor, y basta con avivar algunos fuegos y plantear algunos cambios para que los calores vuelvan a avivar el vínculo.</p>
+                <p className="textArticles">Son muchas las parejas que consultan afectadas por una pérdida del deseo sexual. En general, expresan falta de motivación y excitación, que los lleva a conductas evitativas respecto al posible deseo del otro. Es decir: temen que su pareja pueda buscarlos sexualmente y tratan de evitarlo generando actividades que los demore a la hora del posible encuentro.</p>
+                <p className="textArticles">Esta falta de incentivo sexual se puede dar en ambos miembros de la pareja o en uno solo, y las causas que desmoronan el deseo son múltiples. A su vez, suele suceder que el deseo perdido no se da en forma absoluta, sino que lo han perdido con su pareja, manteniendo, en cambio, fantasías o vínculos excitantes con otras personas conocidas o desconocidas.</p>
+                <p className="textArticles">Por lo general, estas parejas evitan hacer frente a la situación durante un largo período de tiempo, y recién lo hacen cuando el ocultamiento se hace insostenible. Cada vez que queda en evidencia la falta de deseo o interés, tratan de atribuirlo a factores externos como el trabajo, el cansancio, los chicos, etc.</p>
+                <p className="textArticles">Este interés por ocultar la situación se explica porque hay una tendencia a asociar el deseo sexual con el amor y la valoración del otro. Por lo tanto, decirle a la pareja que desde hace tiempo que no siente interés sexual es sentido como una expresión de desamor. La fantasía subyacente es provocarle una herida dolorosa que, entonces, se intenta evitar.</p>
+                <p className="textArticles">En este punto, es importante destacar que la asociación amor-deseo sexual no es necesariamente válida, y que la pérdida de interés no tiene por qué implicar en todos los casos una pérdida amorosa.</p>
+                <p className="textArticles">Hay ciertos modelos erróneos acerca de la sexualidad que crean una expectativa de funcionamiento difícil de lograr. Veamos: primero, no es necesario el enamoramiento para que se despierte el deseo sexual. A su vez, a la inversa podríamos afirmar que la falta de deseo sexual no tiene por qué implicar necesariamente un desenamoramiento.<span className="boldText"> No es el amor la base del deseo sexual, sino el erotismo...</span></p>
+                <p className="textArticles">Cuando una pareja pierde el deseo sexual, podemos encontrar el amor preservado, pero es seguro que ese vínculo ha perdido la cualidad de lo erótico. Definimos a lo erótico como aquel estímulo externo o interno del ser humano, capaz de despertar excitación o deseo sexual.</p>
+                <p className="textArticles">Si el deseo sexual no se alimenta del amor, sino del erotismo, ¿de qué se alimenta el erotismo? Existen muchas condiciones de lo erótico, pero destaco fundamentalmente cuatro:</p>
+                <p className="textArticles"> 
+                <li>Novedad</li>
+                <li>Transgresion</li>
+                <li>Variedad</li>
+                <li>Fantasia</li>
+                </p>
+                <p className="textArticles">Una pareja que recién se conoce y que transita la etapa de fascinación amorosa tendrá seguramente intensificados estos elementos y se necesitará muy poco para generar el deseo. Pero cuando ha pasado tiempo y ciertas rutinas se han instalado en el vínculo muchas parejas sienten que han perdido o disminuido su deseo sexual, y que la pasión se ha transformado en ternura.</p>
+                <p className="textArticles">Tomando los cuatro componentes mencionados, podemos entender que "novedad" ya no hay, y tampoco queda el encanto de lo "prohibido": transgresión, cero. Es frecuente, también, que se hayan acostumbrado a una modalidad de acercarse, acariciarse o amarse que, por lo general, se presenta sin grandes variaciones; o sea, que el tercer elemento -la variedad- también se pierde. El último de ellos, la fantasía, genera contradicciones: muchos sienten que si necesitan de la fantasía para poder estimularse sexualmente, esto es un signo de pérdida de amor. Por lo tanto, se evita y ese cuarto elemento también se pierde.</p>
+                <p className="textArticles">Entonces... Si el erotismo es la base del deseo sexual y varios de sus componentes quedarán irremediablemente perdidos a partir de que el vínculo se profundice y estabilice,<span className="boldText"> ¿es posible mantener el erotismo en una pareja pasado cierto tiempo y conocimiento de uno con el otro? </span> Mi respuesta es afirmativa. Creo positivamente que el erotismo puede ser sostenido a partir de un abordaje diferente de lo sexual.</p>
+                <p className="textArticles">El ser humano, por lo general, quiere lograr una forma de vida donde el placer se le ofrezca en forma espontánea, sin necesidad de hacer ningún esfuerzo y desconfía cuando aquello que debía generarse naturalmente, no se produce. Si bien es cierto que muchas necesidades y deseos cumplen con estos requisitos -el hambre y el sueño, por ejemplo- hay otras que requieren de un aprendizaje y preparación especial, sobre todo si se las quiere vivir en plenitud.</p>
+                <p className="textArticles">En este sentido, sostengo la creencia de que las cosas buenas son caras. Si llevamos lo dicho al terreno de lo sexual, diremos que para hacer el amor no se necesita de un gran aprendizaje, pero hacerlo bien es todo un arte. No es lo mismo “hacer algo para comer, que hacer de una comida un momento especial y pleno", como tampoco es lo mismo tener una relación sexual como una necesidad fisiológica de descarga o tener un encuentro sexual donde cada uno conoce sus tiempos y los del otro, y el manejo de las variables eróticas que sostengan vivo el deseo y el placer.</p>
+                <p className="textArticles">Una pareja que reconozca que el erotismo es algo amenazado en la estabilidad y que no se angustie ante los signos de pérdida de deseo creyendo erróneamente que se deterioró el amor, y que concientice la necesidad de sostener este erotismo a través de la comunicación, la comprensión y el aprendizaje, podrá recuperar su deseo sexual, adentrándose en una relación con la vida y el sexo que, aunque mas costosa, es mucho más plena y placentera.</p>
 </div>
 
 
