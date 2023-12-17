@@ -14,6 +14,11 @@ const MainArticles = () => {
       title: 'El matrimonio y la pérdida del deseo sexual: ¿un destino obligado?',
       content: 'Muchas parejas temen confesarse que han perdido interés sexual por el otro porque asocian esa ausencia de ganas...',
       link: '/matrimonio'
+    },
+    {
+      title: 'Psicologia para leer en vacaciones',
+      content: 'Nuevamente llegó el verano y con él, las tan deseadas vacaciones...',
+      link: '/vacaciones'
     }
   ];
 

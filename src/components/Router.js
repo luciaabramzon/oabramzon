@@ -4,6 +4,7 @@ import MainArticles from './articles/MainArticles'
 import ArticlesPrincipal from "./articles/ArticlesPrincipal"
 import IsraelPalestina from "./articles/israelPalestina"
 import Matrimonio from "./articles/matrimonio"
+import PsicologiaEnVacaciones from "./articles/psicologiaEnVacaciones"
 
 const Router=()=>{
 return(
@@ -13,6 +14,7 @@ return(
     <Route exact path='/articles' element={<ArticlesPrincipal/>}/>
     <Route exact path="/israel-palestina" element={<IsraelPalestina/>}/>
     <Route exact path="/matrimonio" element={<Matrimonio/>}/>
+    <Route exact path='/vacaciones' element={<PsicologiaEnVacaciones/>}/>
   </Routes>
   </BrowserRouter>
 )
