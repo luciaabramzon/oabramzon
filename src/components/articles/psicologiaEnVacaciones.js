@@ -21,7 +21,7 @@ const PsicologiaEnVacaciones=()=>{
           clearTimeout(loadingTimeout);
         };
         
-      }, []);
+      }, [])
     return(
         <div>
             <NavBar/>
@@ -41,7 +41,7 @@ const PsicologiaEnVacaciones=()=>{
                 <p className="textArticles">Les propongo entonces el ejercicio de plantearles <span className="boldText">algunos puntos que considero útiles para una auto reflexión,</span>  donde cada uno de ustedes pueda definir el grado de identificación y el grado de satisfacción o insatisfacción en que se encuentran con respecto a ellos.</p>
                 <p className="textArticles">¿Comenzamos?</p>
 
-                <h2 className="titlesArticles">Punto 1: ¿Cuánto te resuena esta frase que tanta gente dice al final de sus vacaciones?</h2>
+                <h2 className="SubtitlesArticles">Punto 1: ¿Cuánto te resuena esta frase que tanta gente dice al final de sus vacaciones?</h2>
                 <p className="textArticles">“Terminó lo bueno, hay que volver a la realidad”</p>
                 <p className="textArticles">¿La escuchaste?</p>
                 <p className="textArticles">¿La usas?</p>
@@ -67,7 +67,7 @@ const PsicologiaEnVacaciones=()=>{
                 <p className="textArticles">A partir de abordar este primer punto, podemos ahora continuar el punto segundo, entendiendo que al abordar esta nueva pregunta, me ayudará a definir mejor la primera.</p>
                 <p className="textArticles">Vamos a preguntarnos entonces lo siguiente:</p>
                 
-                <h2 className="titlesArticles">Punto 2: ¿A qué grupo poblacional considero que pertenezco?</h2>
+                <h2 className="SubtitlesArticles">Punto 2: ¿A qué grupo poblacional considero que pertenezco?</h2>
                 <p className="textArticles">No se me escapa que esta pregunta puede referirse a una gran cantidad de categorías. Pero en este caso apunto a la categoría de las posibilidades de elección.</p>
                 <p className="textArticles">Vamos a ponerlo en estos términos:</p>
                 <p className="textArticles">Si consideramos a la población mundial, sabemos que hay un porcentaje muy alto de personas que, por su condición social, económica, cultural o religiosa, nacen en un medio donde no van a tener la posibilidad de elegir cómo van a vivir</p>
@@ -90,7 +90,7 @@ const PsicologiaEnVacaciones=()=>{
                 <p className="textArticles">Poder definir claramente este punto, puede ayudar, y mucho, para avanzar sobre el sentido de estas reflexiones, que en definitiva es poder saber cómo entiendo mi “realidad”y como puedo en caso que lo considere necesario, intentar un cambio para lograr una condición más satisfactoria de mi vida.</p>
                 <p className="textArticles">A partir de todo lo ya expresado podemos pasar a la tercera pregunta en estas reflexiones veraniegas.</p>
 
-                <h2 className="titlesArticles">Punto 3: ¿Cómo administro el uso de mi tiempo?</h2>
+                <h2 className="SubtitlesArticles">Punto 3: ¿Cómo administro el uso de mi tiempo?</h2>
                 <p className="textArticles">Es este, en mi concepción, un punto clave para que cada uno de nosotros pueda definir con mayor claridad el significado de “mi realidad”</p>
                 <p className="textArticles">Quisiera comenzar este punto con un ejemplo que creo puede aclarar lo que quiero rescatar como reflexión.</p>
                 <p className="textArticles">Supongamos una joven que busca empleo, y consigue un puesto en una tienda de ropa, como vendedora, cumpliendo un horario de 10 a 18 hs. de lunes a sábados.</p>
@@ -120,7 +120,7 @@ const PsicologiaEnVacaciones=()=>{
                 <p className="textArticles">Vamos ahora a abordar el último punto de estas reflexiones, dejando abierto para un futuro próximo, la posibilidad de agregar otros puntos que puedan ayudarnos a transitar nuestra búsqueda de una vida más plena.</p>
 
 
-                <h2 className="titlesArticles">Punto 4: ¿Cómo diferenciar mis necesidades de mis deseos?</h2>
+                <h2 className="SubtitlesArticles">Punto 4: ¿Cómo diferenciar mis necesidades de mis deseos?</h2>
                 <p className="textArticles">En mi práctica profesional, encuentro con frecuencia personas que utilizan como sinónimos el concepto de necesidad con el concepto de deseo. Sin embargo, hay una diferencia significativa entre ellos y vamos ahora a marcar las particularidades de cada una.</p>
                 <p className="textArticles">Las necesidades aluden a carencias. Dichas carencias deben ser satisfechas necesariamente.</p>
                 <p className="textArticles">Los deseos en cambio son expectativas de placer que pueden ser satisfechos o no, pero no tienen la condición de lo necesario.</p>
