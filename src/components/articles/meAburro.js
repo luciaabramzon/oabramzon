@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import Footer from "../Footer"
 import NavBar from "../NavBar"
-import aburrimiento from '../images/aburrimiento.jpg'
+import aburrimiento from '../images/aburrimiento.jpeg'
 import '../styles/completeArticles.css'
 import { useEffect, useState } from "react"
 import Loader from "../Loader"
