@@ -18,7 +18,12 @@ const MainArticles = () => {
     {
       title: 'Psicologia para leer en vacaciones',
       content: 'Nuevamente llegó el verano y con él, las tan deseadas vacaciones...',
-      link: '/vacaciones'
+      link: '/psicologia-para-leer-en-vacaciones'
+    },
+    {
+      title: 'En el verano se mira y no se toca',
+      content: 'Comienza el verano y una vez más la magia se renueva. El sol parece penetrar en la mente y un dejo de optimismo recuerda que a pesar de todo, la vida sigue siendo hermosa...',
+      link: '/en-el-verano-se-mira-y-no-se-toca'
     }
   ];
 

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import Footer from "../Footer"
 import NavBar from "../NavBar"
-import matrimonio from '../images/matrimonio.webp'
+import leer from '../images/leer.webp'
 import '../styles/completeArticles.css'
 import { useEffect, useState } from "react"
 import Loader from "../Loader"
@@ -33,6 +33,7 @@ const PsicologiaEnVacaciones=()=>{
                     <div>
                 <h1 className="titlesArticles">Psicologia para leer en vacaciones</h1>
                 <div>
+                <img className="ArticleImage" src={leer}/>
 
 </div>
                 <p className="textArticles">Nuevamente llegó el verano y con él, las tan deseadas vacaciones.</p>
