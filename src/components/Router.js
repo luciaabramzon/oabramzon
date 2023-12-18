@@ -6,6 +6,7 @@ import IsraelPalestina from "./articles/israelPalestina"
 import Matrimonio from "./articles/matrimonio"
 import PsicologiaEnVacaciones from "./articles/psicologiaEnVacaciones"
 import SeMira from "./articles/seMira"
+import MeAburro from "./articles/meAburro"
 
 const Router=()=>{
 return(
@@ -17,6 +18,7 @@ return(
     <Route exact path="/matrimonio" element={<Matrimonio/>}/>
     <Route exact path='/psicologia-para-leer-en-vacaciones' element={<PsicologiaEnVacaciones/>}/>
     <Route exact path='/en-el-verano-se-mira-y-no-se-toca' element={<SeMira/>}/>
+    <Route exact path='/porque-me-aburro' element={<MeAburro/>}/>
   </Routes>
   </BrowserRouter>
 )

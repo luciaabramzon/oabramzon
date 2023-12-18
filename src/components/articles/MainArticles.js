@@ -24,6 +24,11 @@ const MainArticles = () => {
       title: 'En el verano se mira y no se toca',
       content: 'Comienza el verano y una vez más la magia se renueva. El sol parece penetrar en la mente y un dejo de optimismo recuerda que a pesar de todo, la vida sigue siendo hermosa...',
       link: '/en-el-verano-se-mira-y-no-se-toca'
+    },
+    {
+      title: '¿Porqué me aburro?',
+      content: 'Para aquellos profesionales que trabajamos en el campo de la psicología, nos es habitual escuchar a pacientes que se encuentran en un tratamiento terapéutico, un cuestionamiento referido a sentir el paso del tiempo sin grandes cambios en sus vidas, o con la sensación de que nada importante les ocurre en su cotidianeidad...',
+      link: '/porque-me-aburro'
     }
   ];
 
